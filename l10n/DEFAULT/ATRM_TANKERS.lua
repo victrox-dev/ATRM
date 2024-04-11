@@ -172,7 +172,7 @@ tanker6_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR304",tanker_m
 
 
 function tanker7spawn()
-tanker7 = SPAWN:New("AR 401 SHELL AGRESSOR #IFF:5317")
+tanker7 = SPAWN:New("AR 401 SHELL AGRESSOR #IFF:5325")
 tanker7_menu_spawn:Remove()
   tanker7:OnSpawnGroup(
     function (tanker7_group)
@@ -200,7 +200,7 @@ tanker7_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR401",tanker_me
 
 
 function tanker8spawn()
-tanker8 = SPAWN:New("AR 402 SHELL AGRESSOR #IFF:5318")
+tanker8 = SPAWN:New("AR 402 SHELL AGRESSOR #IFF:5322")
 tanker8_menu_spawn:Remove()
   tanker8:OnSpawnGroup(
     function (tanker8_group)
@@ -228,7 +228,7 @@ tanker8_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR402",tanker_me
 
 
 function tanker9spawn()
-tanker9 = SPAWN:New("AR 403 SHELL AGRESSOR #IFF:5319")
+tanker9 = SPAWN:New("AR 403 SHELL AGRESSOR #IFF:5323")
 tanker9_menu_spawn:Remove()
   tanker9:OnSpawnGroup(
     function (tanker9_group)
